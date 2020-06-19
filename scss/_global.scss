@@ -107,3 +107,19 @@ p.lead {
     color: $black;
   }
 }
+
+@media (min-width: 992px) {
+  .img-hover-zoom--colorize {
+    overflow: hidden;
+  }
+
+  .img-hover-zoom--colorize img {
+    transition: transform .5s, filter 1s ease-in-out;
+    filter: grayscale(100%);
+  }
+
+  .img-hover-zoom--colorize:hover img {
+    filter: grayscale(0);
+    transform: scale(1.03);
+  }
+}
