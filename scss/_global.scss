@@ -61,11 +61,32 @@ p.lead {
     font-size: 1.5rem;
     line-height: 3.5rem;
     margin-right: 1rem;
+    &:first-child {
+      &:hover {
+        background-color: #0077b5;
+      }
+    }
+    &:nth-child(2) {
+      &:hover {
+        background-color: $gray-900;
+      }
+    }
+    &:nth-child(3) {
+      &:hover {
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+      }
+    }
     &:last-child {
       margin-right: 0;
+      &:hover {
+        background-color: #3b5999;
+      }
     }
-    &:hover {
-      background-color: $primary;
+    .icon {
+      transition: .5s;
+    }
+    &:hover .icon {
+      transform: rotateY(360deg);
     }
   }
 }
