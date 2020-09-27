@@ -73,7 +73,14 @@ p.lead {
     }
     &:nth-child(3) {
       &:hover {
-        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        background: radial-gradient(
+          circle at 30% 107%,
+          #fdf497 0%,
+          #fdf497 5%,
+          #fd5949 45%,
+          #d6249f 60%,
+          #285aeb 90%
+        );
       }
     }
     &:last-child {
@@ -83,7 +90,7 @@ p.lead {
       }
     }
     .icon {
-      transition: .5s;
+      transition: 0.5s;
     }
     &:hover .icon {
       transform: rotateY(360deg);
@@ -129,13 +136,19 @@ p.lead {
   }
 }
 
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
 @media (min-width: 992px) {
   .img-hover-zoom--colorize {
     overflow: hidden;
   }
 
   .img-hover-zoom--colorize img {
-    transition: transform .5s, filter 1s ease-in-out;
+    transition: transform 0.5s, filter 1s ease-in-out;
     filter: grayscale(100%);
   }
 

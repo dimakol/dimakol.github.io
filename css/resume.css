@@ -76,7 +76,7 @@ p.lead {
 }
 
 .social-icons a:nth-child(3):hover {
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
 }
 
 .social-icons a:last-child {
@@ -88,7 +88,7 @@ p.lead {
 }
 
 .social-icons a .icon {
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .social-icons a:hover .icon {
@@ -143,14 +143,20 @@ p.lead {
   color: #000;
 }
 
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
 @media (min-width: 992px) {
   .img-hover-zoom--colorize {
     overflow: hidden;
   }
   .img-hover-zoom--colorize img {
-    transition: transform .5s, -webkit-filter 1s ease-in-out;
-    transition: transform .5s, filter 1s ease-in-out;
-    transition: transform .5s, filter 1s ease-in-out, -webkit-filter 1s ease-in-out;
+    transition: transform 0.5s, -webkit-filter 1s ease-in-out;
+    transition: transform 0.5s, filter 1s ease-in-out;
+    transition: transform 0.5s, filter 1s ease-in-out, -webkit-filter 1s ease-in-out;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
   }
