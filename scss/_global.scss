@@ -142,6 +142,11 @@ img {
   height: auto;
 }
 
+.iframe {
+  transform: scale(0.7);
+  transform-origin: top left;
+}
+
 @media (min-width: 992px) {
   .img-hover-zoom--colorize {
     overflow: hidden;
