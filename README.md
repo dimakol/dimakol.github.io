@@ -4,9 +4,9 @@
 
 ## Preview
 
-[![Resume Preview](https://startbootstrap.com/assets/img/screenshots/themes/resume.png)](https://blackrockdigital.github.io/startbootstrap-resume/)
+[![Resume Preview](https://assets.startbootstrap.com/img/screenshots/themes/resume.png)](https://startbootstrap.github.io/startbootstrap-resume/)
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-resume/)**
+**[View Live Preview](https://startbootstrap.github.io/startbootstrap-resume/)**
 
 ## Status
 
@@ -19,10 +19,11 @@
 ## Download and Installation
 
 To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/resume/)
-* Install via npm: `npm i startbootstrap-resume`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-resume.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-resume)
+
+- [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/resume/)
+- Install via npm: `npm i startbootstrap-resume`
+- Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-resume.git`
+- [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-resume)
 
 ## Usage
 
@@ -52,14 +53,14 @@ Have a bug or an issue with this template? [Open a new issue](https://github.com
 
 Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
 
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
+- https://startbootstrap.com
+- https://twitter.com/SBootstrap
 
 Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+- http://davidmiller.io
+- https://twitter.com/davidmillerskt
+- https://github.com/davidtmiller
 
 Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
