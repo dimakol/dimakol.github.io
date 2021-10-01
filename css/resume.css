@@ -5,7 +5,7 @@
  */
 
 body {
-  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   padding-top: 54px;
   color: #868e96;
 }
@@ -16,14 +16,13 @@ body {
     padding-left: 17rem;
   }
 }
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
@@ -50,7 +49,7 @@ p.lead {
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.5rem;
 }
 
@@ -66,31 +65,24 @@ p.lead {
   line-height: 3.5rem;
   margin-right: 1rem;
 }
-
 .social-icons a:first-child:hover {
   background-color: #0077b5;
 }
-
 .social-icons a:nth-child(2):hover {
   background-color: #212529;
 }
-
 .social-icons a:nth-child(3):hover {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
 }
-
 .social-icons a:last-child {
   margin-right: 0;
 }
-
 .social-icons a:last-child:hover {
   background-color: #3b5999;
 }
-
 .social-icons a .icon {
   transition: 0.5s;
 }
-
 .social-icons a:hover .icon {
   transform: rotateY(360deg);
 }
@@ -98,47 +90,37 @@ p.lead {
 .dev-icons {
   font-size: 3rem;
 }
-
 .dev-icons .html i {
   color: #BD5D38;
 }
-
 .dev-icons .css i {
   color: #007bff;
 }
-
 .dev-icons .js i {
   color: #ffc107;
 }
-
 .dev-icons .react i,
 .dev-icons .sql i {
   color: #17a2b8;
 }
-
 .dev-icons .nodejs i {
   color: #28a745;
 }
-
 .dev-icons .sass i {
   color: #e83e8c;
 }
-
 .dev-icons .less i {
   background: #254b7b;
   color: #fff;
 }
-
 .dev-icons .bootstrap i {
   color: #6f42c1;
 }
-
 .dev-icons .java i,
 .dev-icons .gulp i,
 .dev-icons .npm i {
   color: #dc3545;
 }
-
 .dev-icons .git i {
   color: #000;
 }
@@ -158,6 +140,7 @@ img {
   .img-hover-zoom--colorize {
     overflow: hidden;
   }
+
   .img-hover-zoom--colorize img {
     transition: transform 0.5s, -webkit-filter 1s ease-in-out;
     transition: transform 0.5s, filter 1s ease-in-out;
@@ -165,19 +148,18 @@ img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
   }
+
   .img-hover-zoom--colorize:hover img {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
     transform: scale(1.03);
   }
 }
-
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
 }
-
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
 }
@@ -221,13 +203,11 @@ img {
     display: block;
   }
 }
-
 section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   max-width: 75rem;
 }
-
 section.resume-section .resume-item .resume-date {
   min-width: none;
 }
@@ -240,14 +220,12 @@ section.resume-section .resume-item .resume-date {
     min-width: 18rem;
   }
 }
-
 @media (min-width: 992px) {
   section.resume-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
   }
 }
-
 .bg-primary {
   background-color: #BD5D38 !important;
 }
@@ -259,7 +237,6 @@ section.resume-section .resume-item .resume-date {
 a {
   color: #BD5D38;
 }
-
 a:hover, a:focus, a:active {
   color: #824027;
 }
