@@ -35,7 +35,7 @@
         "jquery.easing": "^1.4.1"
     },
     "devDependencies": {
-        "browser-sync": "^2.26.14",
+        "browser-sync": "^2.27.5",
         "del": "5.1.0",
         "gulp": "4.0.2",
         "gulp-autoprefixer": "7.0.0",
@@ -43,8 +43,9 @@
         "gulp-header": "2.0.9",
         "gulp-plumber": "^1.2.1",
         "gulp-rename": "1.4.0",
-        "gulp-sass": "4.0.2",
+        "gulp-sass": "^4.0.2",
         "gulp-uglify": "3.0.2",
-        "merge-stream": "2.0.0"
+        "merge-stream": "2.0.0",
+        "sass": "^1.42.1"
     }
 }
