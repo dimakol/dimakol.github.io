@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
- * Copyright 2013-2021 Dima Kolyas
+ * Copyright 2013-2023 Dima Kolyas
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
